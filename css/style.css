@@ -1,0 +1,134 @@
+/* line 1, style.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 5, style.scss */
+li {
+  list-style: none; }
+
+/* line 8, style.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+/* line 13, style.scss */
+body {
+  font-size: 16px; }
+
+/* line 16, style.scss */
+.index-header {
+  width: 100%;
+  height: 50px;
+  background: red; }
+  /* line 20, style.scss */
+  .index-header .header {
+    margin-top: 10px;
+    width: 95%;
+    height: 30px;
+    background: #fff;
+    border-radius: 20px;
+    line-height: 30px;
+    margin-left: 6px;
+    position: relative; }
+    /* line 29, style.scss */
+    .index-header .header .sou {
+      margin-left: 14px; }
+    /* line 32, style.scss */
+    .index-header .header input {
+      border: 0; }
+    /* line 35, style.scss */
+    .index-header .header .feng {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      color: red;
+      font-size: 20px; }
+
+/* line 44, style.scss */
+.index-content {
+  flex: 1; }
+  /* line 46, style.scss */
+  .index-content .nav {
+    overflow: hidden;
+    width: 100%;
+    position: relative; }
+  /* line 51, style.scss */
+  .index-content .navSlider {
+    width: 200%; }
+    /* line 53, style.scss */
+    .index-content .navSlider ul {
+      display: flex;
+      border-bottom: 1px solid #ccc; }
+      /* line 56, style.scss */
+      .index-content .navSlider ul .te {
+        color: red; }
+    /* line 60, style.scss */
+    .index-content .navSlider li {
+      width: auto;
+      padding: 10px 10px 10px 0; }
+  /* line 65, style.scss */
+  .index-content .more {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+    z-index: 18;
+    background: #fff;
+    margin-top: 5px; }
+  /* line 77, style.scss */
+  .index-content .info dl {
+    display: flex;
+    border: 1px solid #ccc; }
+    /* line 80, style.scss */
+    .index-content .info dl dd {
+      flex: 1;
+      position: relative; }
+      /* line 83, style.scss */
+      .index-content .info dl dd .right {
+        display: inline-block;
+        position: absolute;
+        left: 10px;
+        bottom: 5px;
+        color: #ccc; }
+      /* line 90, style.scss */
+      .index-content .info dl dd .border {
+        border: 1px solid blue;
+        color: blue; }
+      /* line 94, style.scss */
+      .index-content .info dl dd .zan {
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        bottom: 5px; }
+    /* line 102, style.scss */
+    .index-content .info dl dt img {
+      width: 110px;
+      height: 80px; }
+
+/* line 111, style.scss */
+.index-footer {
+  height: 44px;
+  background: #fff;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  font-size: 14px;
+  display: flex; }
+  /* line 118, style.scss */
+  .index-footer .curr {
+    color: #c52958; }
+  /* line 121, style.scss */
+  .index-footer a {
+    width: 20%;
+    color: black;
+    flex: 1;
+    text-align: center; }
+    /* line 126, style.scss */
+    .index-footer a i {
+      display: block;
+      font-size: 22px; }
+
+/*# sourceMappingURL=style.css.map */
